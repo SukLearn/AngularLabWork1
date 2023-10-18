@@ -1,0 +1,38 @@
+<!-- <h1>Hello world {{title}}</h1>
+<button (click)="displayHelloWord()"
+[ngClass] ="{'red-button': !showHelloWorld, 'green-button': showHelloWorld}">
+>click this
+</button> -->
+
+
+<!-- <p *ngIf="showHelloWorld">{{helloWorldMessage}}</p>
+<div *ngFor="let user of users "> -->
+    <!-- <h2>users component</h2> -->
+    <!-- <app-users [sendData]="user"></app-users>
+</div> -->
+
+<!-- TWO WAY BINDING -->
+<div class="something">
+    <input ngModel #myText type="text" [value]=''>
+    <p>{{myText.value}}</p>
+</div>
+
+
+
+<div>
+    <app-users [users]="users"></app-users>
+</div>
+
+<!--  -->
+<!-- 
+<div>
+
+<app-users (parentFunction)="parentFunction($event)"></app-users>
+<div *ngFor="let user of readData">
+    <h3>{{user.name}}</h3>
+    <h3>{{user.age}}</h3>
+    <h3>{{user.email}}</h3>
+</div>
+</div> -->
+
+<!-- property binding syntax is [] -->

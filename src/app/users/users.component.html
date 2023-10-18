@@ -1,0 +1,8 @@
+<div *ngFor="let user of users">
+    <div *ngIf="!user.name.includes('h') && !user.name.includes('z')">
+
+        <h3>{{user.id}}</h3>
+        <h3>{{user.name}}</h3>
+        <h3>{{user.email}}</h3>
+    </div>
+</div>
